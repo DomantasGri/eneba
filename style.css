@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: rgb(75, 75, 75);
+}
+h1{
+    color:#edf0f1
+}
+li, button{
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+
+}
