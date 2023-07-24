@@ -5,14 +5,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
 }
 .navas{
-    background-color: rgb(102, 135, 163);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 4%;
-    padding-right: 4%;
 }
 .navigation{
     display: flex;
@@ -36,4 +36,23 @@ button{
 }
 button:hover{
     background-color: rgb(97, 124, 173);
+}
+.about{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5%;
+}
+.about .Words{
+    width: 60%;
+    padding-top: 5%;
+}
+.about .BigWords{
+    font-size: 40px;
+}
+.about .SmallWords {
+    font-size: 26px;
+    line-height: 130%;
+}
+.about img{
+
 }
