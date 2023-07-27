@@ -84,3 +84,24 @@ button:hover{
 .ThirdPizza{
     width: 33%;
 }
+.kontaktu_rasymas{
+    text-align: center;
+}
+.Kontaktai{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Kontaktai .words{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+}
+.Kontaktai .Words .W p{
+    text-align: left;
+}
+    
+
+    
