@@ -2,12 +2,14 @@
     color: black;
 }
 body{
+    background-color: blanchedalmond;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 1%;
+
 }
 .navas{
     display: flex;
@@ -53,6 +55,32 @@ button:hover{
     font-size: 26px;
     line-height: 130%;
 }
-.about img{
-
+.Top3Words{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+}
+.Top3Words span{
+    color: gray;
+}
+.Pizzas{
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.Pizzas img{
+    width: 100%;
+}
+.FirstPizza{
+    width: 33%;
+}
+.SecondPizza{
+    width: 33%;
+}
+.ThirdPizza{
+    width: 33%;
 }
