@@ -1,0 +1,65 @@
+*{
+    color: black;
+}
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+
+}
+.navas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    list-style: none;
+}
+.navas .navigation a{
+    text-decoration: none;
+    font-size: 23px;
+}
+.Musu{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 3%;
+}
+.Pizzas{
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.Pizzas img{
+    width: 100%;
+}
+.FirstPizza{
+    width: 33%;
+}
+.SecondPizza{
+    width: 33%;
+}
+.ThirdPizza{
+    width: 33%;
+}
+.meniuPicos{
+    text-align: center;
+    font-size: 38px;
+}
+.meniuKiti{
+    text-align: center;
+    font-size: 38px;
+}
+.meniuGerimai{
+    text-align: center;
+    font-size: 38px;
+}
