@@ -9,10 +9,13 @@ body{
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 1%;
-
+    font-size: 32px;
 }
 .pav{
     font-size: 40px;
+}
+img{
+    width: 100%;
 }
 .navas{
     display: flex;
@@ -45,39 +48,60 @@ body{
 .navigation a:hover::before{
     transform: scaleX(1);
 }
-.Musu{
+.pradzia {
+    padding-top: 3%;
     text-align: center;
-    font-size: 38px;
+    padding-bottom: 5%;
 }
-.Pizzas{
-    margin-top: 5%;
+.pradzia .Big{
+    font-weight: bold;
+    font-size: 40px;
+}
+.After{
     display: flex;
+    height: 100%;
+}
+.After .fotke{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.After .fotke img{
+    width: 70%;
+}
+.After .tekstas{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 5%;
+    line-height: 1.3;
 }
-.Pizzas img{
-    width: 100%;
+.tekstasdidelis{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 40px;
 }
-.FirstPizza{
-    width: 33%;
+.siulymai{
+    padding-top: 3%;
+    display: flex;
+    justify-content:space-between;
 }
-.SecondPizza{
-    width: 33%;
-}
-.ThirdPizza{
-    width: 33%;
-}
-.meniuPicos{
+.siulymai .fotke{
+    font-size: 45px;
     text-align: center;
-    font-size: 38px;
 }
-.meniuKiti{
+.siulymai .tekstas{
+    justify-content: center;
     text-align: center;
-    font-size: 38px;
 }
-.meniuGerimai{
-    text-align: center;
-    font-size: 38px;
+.siulymai .pirmas{
+    width: 30%;
+}
+.siulymai .antras{
+    width: 30%;
+}
+.siulymai .trecias{
+    width: 30%;
 }
